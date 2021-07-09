@@ -1,0 +1,42 @@
+{
+  "marketInfo": {
+    "price": "قیمت کنونی",
+    "daily_price_change_pct": "تغییر ۲۴ ساعته",
+    "market_cap": "حجم مارکت ۲۴ ساعته",
+    "high_daily_price": "بالاترین قیمت ۲۴ ساعته",
+    "low_daily_price": "پایین‌ترین قیمت ۲۴ ساعته"
+  },
+  "news": {
+    "showLink": "مشاهده کامل",
+    "source": "منبع:",
+    "fandamental": "دستیار فاندامنتال",
+    "bazar": "بازار",
+    "technical": "دستیار تکنیکال"
+  },
+  "transactoin": {
+    "price": "مبلغ(IRT)",
+    "amount": "مقدار(BTC)",
+    "date": "ساعت",
+    "datee": "زمان",
+    "market": "بازار",
+    "type": "توع",
+    "averageTradedPrice": "میانگین قیمت تمام‌شده",
+    "totalAmount": "مقدار",
+    "totalPrice": "مبلغ کل"
+  },
+  "alert": {
+    "alertInvalidField": "فیلد مربوطه را پر کنید"
+  },
+  "login": {
+    "melliCode": "کد ملی",
+    "password": "رمز عبور",
+    "login": "ورود",
+    "dontHaveAccount": "اکانت ندارید؟",
+    "signUp": "ثبت نام",
+    "forgotPassword": "رمز عبور را فراموش کردید؟",
+    "username": "نام کاربری"
+  },
+  "validation": {
+    "required": "این فیلد لازم است"
+  }
+}
