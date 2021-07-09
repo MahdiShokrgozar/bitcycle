@@ -7,7 +7,7 @@
       class="bg-dark--2"
       active-nav-item-class="bg-info"
     >
-      <b-tab title="معاملات بازار" active title-link-class="text-white">
+      <b-tab title="خرید و فروش" active title-link-class="text-white">
         <b-row>
           <b-col md="6">
             <b-form @submit.stop.prevent="onBuy">
@@ -214,16 +214,16 @@ export default {
       data.append("type", "buy");
       data.append("price", this.buy_price);
       data.append("amount", this.buy_amount);
-      console.log(data)
+      console.log(data);
       this.$store
         .dispatch("sendOrder", data)
         .then((response) => {
           console.log(response);
-           this.$noty.success("خرید انجام شد")
+          this.$noty.success("خرید انجام شد");
         })
         .catch((err) => {
           console.log(err);
-          this.$noty.error("مشکلی وجود دارد")
+          this.$noty.error("مشکلی وجود دارد");
         });
     },
     onSell() {
@@ -238,16 +238,16 @@ export default {
       data.append("type", "sell");
       data.append("price", this.buy_price);
       data.append("amount", this.buy_amount);
-      console.log(data)
+      console.log(data);
       this.$store
         .dispatch("sendOrder", data)
         .then((response) => {
           console.log(response);
-          this.$noty.success("فروش انجام شد")
+          this.$noty.success("فروش انجام شد");
         })
         .catch((err) => {
           console.log(err);
-           this.$noty.error("مشکلی وجود دارد")
+          this.$noty.error("مشکلی وجود دارد");
         });
     },
   },
@@ -282,5 +282,4 @@ export default {
   color: white;
   border-color: #2b2e3e;
 }
-
 </style>

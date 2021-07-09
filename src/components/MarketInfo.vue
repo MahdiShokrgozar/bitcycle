@@ -3,7 +3,7 @@
     <b-row align-h="center" class="mb-4 bg-dark--2 text-white">
       <b-col md="2">
         <dropdown :x="-79" :class-name="'my-dropdown'">
-          <template slot="btn">markets</template>
+          <template slot="btn">BTCUSDC</template>
           <template slot="body" class="bg-dark--1">
             <ul
               class="bg-dark--1"
